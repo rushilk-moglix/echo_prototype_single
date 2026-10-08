@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex" />
+<title>Echo prototype, in one file</title>
+<style>
+  :root { --ink: #0c0a09; --muted: #5c5752; --line: #e7e5e2; --well: #f0eee9; --accent: #DA291C; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.55 system-ui, -apple-system, 'Segoe UI', sans-serif; color: var(--ink); background: #fff; }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 24px 72px; }
+  h1 { font-size: 30px; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 10px; padding-left: 14px; border-left: 4px solid var(--accent); }
+  p { margin: 0 0 14px; color: var(--muted); }
+  .acts { display: flex; gap: 10px; flex-wrap: wrap; margin: 26px 0 8px; }
+  a.btn { display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 10px; border: 1px solid var(--ink); color: var(--ink); text-decoration: none; font-weight: 600; }
+  a.btn.main { background: var(--accent); border-color: var(--accent); color: #fff; }
+  a.btn:hover { filter: brightness(0.94); }
+  .hint { font-size: 13px; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 40px 0 10px; font-weight: 600; }
+  ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+  li { display: grid; grid-template-columns: 200px 1fr; gap: 16px; padding: 11px 0; border-bottom: 1px solid var(--line); }
+  li span { color: var(--muted); }
+  .note { margin-top: 28px; padding: 14px 16px; background: var(--well); border-radius: 10px; font-size: 13.5px; color: var(--muted); }
+  @media (max-width: 560px) { li { grid-template-columns: 1fr; gap: 2px; } main { padding-top: 36px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Echo prototype, in one file</h1>
+  <p>Echo by Cognilix: build voice agents, run calling campaigns from a sheet, and get every answer back.</p>
+  <p>The whole clickable prototype is a single HTML file. Open it here, or download it and double click. Nothing to install.</p>
+  <div class="acts">
+    <a class="btn main" href="Echo-Prototype.html">Open the prototype</a>
+    <a class="btn" href="Echo-Prototype.html" download="Echo-Prototype.html">Download the file</a>
+  </div>
+  <p class="hint">Sign in with any email and password. Use Chrome or Edge.</p>
+  <h2>What to look at</h2>
+  <ul><li><b>Overview</b><span>How calling is going: dialled, reached, completed, call status. Pick one agent at the top to see its own answers.</span></li><li><b>Input and "Picked up, not completed"</b><span>On the Overview: what was wrong in the uploaded rows, and why picked up calls did not finish.</span></li><li><b>Share</b><span>Top right of the Overview: picture, PDF, spreadsheet, or a report by email on a schedule.</span></li><li><b>Campaigns</b><span>New campaign: pick an agent, download its template, upload it, start. Calls play out in a few seconds.</span></li><li><b>A call</b><span>Click any call: recording, transcript, answers and every dial.</span></li><li><b>Follow ups</b><span>Contacts calling cannot settle: owner, notes, corrected number, call again.</span></li><li><b>Agents</b><span>Open an agent: Prompt, Call data, Answers, Settings.</span></li><li><b>Workspace switcher</b><span>Bottom of the side bar: a second workspace whose agent covers several rows on one call.</span></li></ul>
+  <div class="note">Sample data only, held in memory: it starts fresh on every open or reload. Calls are simulated; nothing is dialled and nothing leaves your computer. This is a prototype of the planned product, not the live product.</div>
+</main>
+</body>
+</html>
