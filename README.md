@@ -1,6 +1,6 @@
 # Echo prototype, in one file
 
-Echo by Cognilix: build voice agents, run calling campaigns from a sheet, and get every answer back.
+Echo by Vanik: build voice agents, run calling campaigns from a sheet, and get every answer back.
 
 This repository holds the whole clickable prototype as **one HTML file**, for design, engineering and leadership review.
 Nothing to install and nothing to run.
