@@ -20,10 +20,13 @@ Sign in with any email and password.
 | Overview | How calling is going: dialled, reached, completed, call status. Pick one agent at the top to see its own answers. |
 | Input and "Picked up, not completed" | On the Overview: what was wrong in the uploaded rows, and why picked up calls did not finish. |
 | Share | Top right of the Overview: picture, PDF, spreadsheet, or a report by email on a schedule. |
-| Campaigns | New campaign: pick an agent, download its template, upload it, start. Calls play out in a few seconds. |
+| New agent with AI | Agents, New agent: try it with the example files, answer a few questions, create, then start calling from the same file. |
+| Change an agent with AI | Open an agent and write the change in the line above its tabs, for example: speak slower, also collect the invoice number. |
+| Campaigns | New campaign: pick an agent and drop any sheet; Echo matches the columns and shows the credits it may use. Calls play out in a few seconds. |
+| Credits | One balance for calls, numbers, AI and work by our team: buy a pack, get a phone number, request a custom agent or integration. |
 | A call | Click any call: recording, transcript, answers and every dial. |
 | Follow ups | Contacts calling cannot settle: owner, notes, corrected number, call again. |
-| Agents | Open an agent: Prompt, Call data, Answers, Settings. |
+| Agents | Open an agent: Prompt, Call data, Answers, Settings. Sign in as ops.buyer1@example.com to see the campaign manager view, or demo.admin@example.com for a viewer. |
 | Workspace switcher | Bottom of the side bar: a second workspace whose agent covers several rows on one call. |
 
 ## Good to know
